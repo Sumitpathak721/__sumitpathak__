@@ -167,6 +167,10 @@ hr{
   flex:1;
   margin-right:20px;
 }
+.certi a{
+  text-decoration: none;
+  color:purple;
+}
 .certi-cp li{
   margin:10px 0px;
 }
