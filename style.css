@@ -107,10 +107,11 @@
 }
 
 hr{
-  margin:0px 47%;
   width:50px;
   border:1.2px solid purple;
+  margin-top: 0px;
   margin-bottom: 5px;
+  background-color: purple;
 }
 .span-bucket span{
   display:inline-block;
