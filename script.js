@@ -54,11 +54,11 @@ for(let i=0;i<project_data.length;i++){
     text+=`</div>
     </div>
     <div class="prj-links">
-        <a href=${project_data.github} alt=${project_data.title} target="_blank"
-            style='background-color:"rgb(61, 162, 61)"'><i
+        <a href=${project_data[i].github} alt=${project_data[i].title} target="_blank"
+            style='background-color:rgb(61, 162, 61)'><i
                 class="fa fa-github"></i>Github</a>`
-    text+=(project_data[i].active)?`<a href={props.active} alt={props.title} target="_blank"
-            style={{backgroundColor:"rgb(0 102 255)"}}><i class="fa fa-globe"></i>Live</a>`:
+    text+=(project_data[i].active)?`<a href=${project_data[i].active} alt=${project_data[i].title} target="_blank"
+            style='background-color:rgb(0 102 255)'><i class="fa fa-globe"></i>Live</a>`:
         ``
     text+=`</div>
 </div>
