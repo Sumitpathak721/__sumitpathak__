@@ -66,13 +66,13 @@ for(let i=0;i<project_data.length;i++){
 document.getElementById("project_content").innerHTML=text;
 }
 
-document.addEventListener('contextmenu', event => event.preventDefault());
-document.onkeydown = function(e) {
-    if (e.ctrlKey && 
-        (e.keyCode === 67 || 
-         e.keyCode === 85 || 
-         e.keyCode === 83 ||
-         e.keyCode === 117)) {
-        e.preventDefault();
-    }
-};
+// document.addEventListener('contextmenu', event => event.preventDefault());
+// document.onkeydown = function(e) {
+//     if (e.ctrlKey && 
+//         (e.keyCode === 67 || 
+//          e.keyCode === 85 || 
+//          e.keyCode === 83 ||
+//          e.keyCode === 117)) {
+//         e.preventDefault();
+//     }
+// };
