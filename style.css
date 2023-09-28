@@ -12,7 +12,7 @@
   align-items: center;
   position: relative;
   height: 20px;
-  margin-block:20px;
+  margin-block:10%;
 }
 
 .header-theme-name h1 {
@@ -308,6 +308,9 @@ hr{
 @media(max-width:1050px){
   .body-2{
     flex:2.5
+  }
+  .certi{
+    margin-right:0px;
   }
   .skills_container{
     display:block;
