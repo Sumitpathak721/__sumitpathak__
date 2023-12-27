@@ -1,5 +1,20 @@
-project_data = [{
-    "title": "DJ(Programming Language)", "description": "Built Language which empowering programmer to write dynamic programming with java features",
+project_data = [
+{
+    "title":"Semantic Analysis",
+    "description":"Detect Cyberbully on social media and take instant action by Government and Promote business based on people's insight about different insights.",
+    "duration":"Aug 2023",
+    "techStack":["Python","Nodejs","Reactjs","BS4"],
+    "github":"https://github.com/Sumitpathak721/Sentiment-analysis"
+},
+{
+    "title":"Fake Account Detection",
+    "description":"Prevent users from being fraud by scammers on Twitter and enhancing user trust by swiftly identifying and eliminating fake accounts.",
+    "duration":"Sept 2023",
+    "techStack":["Python","Nodejs","pickle.py","Reactjs","Decision TreeClassification"],
+    "github":"https://github.com/Sumitpathak721/Fake-Account-detection"
+}
+,{
+    "title": "Programming Language(Java Compiler with advance syntax)", "description": "Built Language which empowering programmer to write dynamic programming with java features",
     "techStack": ["JAVA", "File-handeling"],
     "duration": "Jan 2023",
     "github": "https://github.com/Sumitpathak721/DJ-language"
